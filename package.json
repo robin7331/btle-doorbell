@@ -1,16 +1,15 @@
 {
-  "name": "raspberry-doorbell",
+  "name": "btle-doorbell",
   "version": "0.0.1",
-  "description": "",
+  "description": "This script is listening for a BTLE device which sends a message once the doorbell rings.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Robin Reiter",
   "license": "ISC",
   "dependencies": {
     "mqtt": "^1.14.1",
-    "noble": "^1.6.0",
-    "pushover-notifications": "^0.2.3"
+    "noble": "^1.6.0"
   }
 }
